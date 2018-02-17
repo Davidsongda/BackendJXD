@@ -1,0 +1,46 @@
+body{
+	height: 98.5%;
+	background:#f2fdff;
+	overflow:hidden;
+}
+table{
+	width: 99%;
+	overflow: auto;
+}
+#table td{
+	height: 28px;
+	line-height: 28px;
+	text-align:center;
+	border:1px solid #d5dbde;
+	font-size:9pt;
+    font-family:微软雅黑,Microsoft YaHei,Tahoma, Verdana, 宋体;
+    padding:0px;
+    padding-top:0;
+    padding-bottom:0;
+   /*  overflow:hidden; */
+    white-space:normal;
+}
+table tr:hover{
+    background-color:#addffe !important;
+}
+.headTd{
+	height:31px !important;
+	line-height:1px !important;
+    background: #def7ff;
+}
+table tr:nth-child(2n+1){
+	background:#f7f4fd;
+}
+.selectedRow{
+	background:#DFE8F6 !important;
+}
+
+.mergionRow{
+	background:#f7f4fd;
+}
+/* .headTd td{
+	z-index: 8;
+	position: relative;
+	top:expression(document.getElementById('datagrid1').scrollTop-1);
+	table-layout: fixed;
+} */

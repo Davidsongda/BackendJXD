@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/**
+ * @ClassName: base.css
+ * @Description: 公共样式表
+ * @Author: zww
+ * @Date: 2017-5-20
+ */
+/*----弹出框公共样式（添加、修改）------*/
+body{margin: 0;padding: 0;}
+.formWrap{padding:0 10px;height:80%;background-color: #fff;}
+.formWrap table{table-layout:fixed;margin: 20px 0;}
+.formWrap table tr{height:30px;}
+.formWrap .first_tr{display: none;}
+.formWrap table td{text-align:right;}
+.formWrap table,.formWrap table td{border:none;}
+.formWrap table .project_td div,.formWrap table .textarea_td div{margin-right: 10px;eight: 30px;line-height: 30px;background-color:#fff;border-radius: 3px;}
+.formWrap table div i{display: inline-block;width: 10px;height: 10px;margin-right: 3px;font-size: 14px;background: url(../img/tips.png) no-repeat center;}
+.project_td {width:17%;height: 40px;text-align: right;font-size: 12px;color: #727272;font-family: "Microsoft YaHei", 微软雅黑;}
+.content_td{width: 33%;}
+.formWrap table .project_td div span,.formWrap table .textarea_td div span{color: red;}
+#table_Records{border-left:1px solid #E5E5E5;border-top:1px solid #E5E5E5;}
+#table_Records td{	border-right:1px solid #E5E5E5;border-bottom:1px solid #E5E5E5;}
+#table_Records td{	text-align:center;}
+
+/* 迷你样式覆盖 */
+.formWrap .mini-textbox,.mini-buttonedit{width:100%;height:30px;}
+.formWrap .mini-textbox-border,
+.formWrap .mini-buttonedit-border,
+.formWrap .mini-buttonedit-input{background: #fff;border:1px solid #eee;font-size:13px;height:28px;line-height: 28px;}
+.formWrap .mini-textbox-focus .mini-textbox-border{border:1px solid #ccc;}
+.formWrap .mini-textbox-input ,.formWrap .mini-buttonedit-input{padding-left: 3px;height: 30px;line-height: 30px;}
+.formWrap .mini-textarea{margin: 4px 0;height: 50px;}
+.mini-textarea .mini-textbox-input{line-height: 25px;}
+ .buttonDiv {margin-top: 10px;margin-bottom: 10px;text-align: center;}
+.buttonDiv .mini-btn{width: 76px;height: 30px;border: none;line-height: 30px;color: #fff;cursor: pointer;font-family: "Microsoft YaHei", 微软雅黑;}
+.buttonDiv .mini-btn.ok{margin-right: 20px;background: url(../img/common/okBtn.png) no-repeat center;}
+.buttonDiv .mini-btn.ok:hover{background:url(../img/common/okBtn1.png) no-repeat center;}
+.buttonDiv .mini-btn.cancle{background: url(../img/common/cancleBtn.png) no-repeat center;}
+.buttonDiv .mini-btn.cancle:hover{background:url(../img/common/cancleBtn1.png) no-repeat center;}
+.mini-modal{background: #333;opacity: 0.6;}
+.mini-textarea .mini-textbox-border{height:auto;padding-left:0px;padding-right:0px;}
+.mini-textbox-input, .mini-buttonedit-input {background: #fff;}
+.mini-buttonedit .mini-buttonedit-button,.mini-buttonedit .mini-buttonedit-icon{height:24px;}
+
+/*该样式为后来加改，为了使登录名显示为灰色*/
+.mini-textbox-disabled .mini-textbox-input {background:#f0f0f0;color:#6D6D6D;cursor:default;}
+.formWrap  .mini-buttonedit-input{border:none;}
+.star{color:red;}
+
+/*表单table样式*/
+.readonly_td .mini-textbox-input{color:#747677;}
+.tree-div{width: 250px;margin-left: 0;padding-bottom: 33px;overflow: auto;}
+
+/*固定按钮*/
+.fix-button{position: fixed;padding: 3px 0;bottom: 0;width: 100%;height: 33px;text-align: center;background: #fff;border-top: 1px solid #ccc;}
+
+/*弹出列表界面*/
+.pop-list{padding: 5px 10px;}
+.auth-div{padding: 8px 0;height: 50px;width: 100%;}
+.tree-body1 .searchClass{width: 220px;margin: 10px;}
+.tree-body1 .searchClass .mini-textbox .mini-textbox-border{width: 200px;}

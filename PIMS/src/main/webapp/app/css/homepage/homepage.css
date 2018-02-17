@@ -1,0 +1,213 @@
+body{
+    font-family: "Microsoft YaHei", "微软雅黑";
+}
+html,body,form{height:100%;}
+.clearfix:after {  content:"";display:block;clear:both;}
+.clearfix {*zoom:1;}/*IE/7/6*/
+.pageBody{
+    margin:0 auto;
+    width: 99%;
+    height:100%;
+}
+ul,li{padding:0;margin:0;}
+/*----------------顶部样式----------------------*/
+.topBox{
+    height:44.5%;
+}
+.sysHead{
+    padding-left:25px;
+    height:35px;
+    line-height: 35px;
+    color:#458dc8;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: SimSun;
+    background:url(../../img/main/banner-icon1.png) no-repeat 5px center;
+}
+.sysList{
+    height:80%;
+}
+.sysItem{
+    position: relative;
+    margin:0 0.3%;
+    float:left;
+    width:10.5%;
+    height:100%;
+    border:1px solid #666;
+    cursor: pointer;
+}
+.sysItem dt{
+    height:30%;
+    color:#333;
+    font-size:18px;
+    font-family: "Microsoft YaHei", "微软雅黑";
+    text-align: center;
+    font-weight: normal;
+}
+.sysItem dt span{
+    margin-top:5%;
+   display: inline-block;
+    height:36px;
+    vertical-align: middle;
+    line-height: 36px;
+    *display:inline;
+    *zoom:1;
+}
+.sysItem dd{
+    height:10%;
+}
+.sysItem dd a{
+    padding:0 5px;
+    display: block;
+    width:100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    line-height: 1.2;
+    color:#000;
+    font-size: 12px;
+    font-family:"Microsoft YaHei", "微软雅黑";
+    transition:all .3s;
+    letter-spacing: 1px;
+}
+.sysItem dd a:hover{
+    padding-left:10px;
+    text-decoration: none;
+}
+.active{
+    background:#004a86;
+}
+.active dt,.active dd a,.sysItem:hover dt,.sysItem:hover dd a{
+    color:#fff;
+}
+.sysItem:hover{
+    background:#0A5D9D;
+}
+/*----------------未开法项目颜色比其他颜色浅----------------------*/
+.sysItem1{
+    position: relative;
+    margin:0 0.3%;
+    float:left;
+    width:10.5%;
+    height:100%;
+    border:1px solid #666;
+    cursor: pointer;
+}
+.sysItem1 dt{
+    height:30%;
+    color:#333;
+    font-size:18px;
+    font-family: "Microsoft YaHei", "微软雅黑";
+    text-align: center;
+    font-weight: normal;
+}
+.sysItem1 dt span{
+    margin-top:5%;
+    display: inline-block;
+    height:36px;
+    vertical-align: middle;
+    line-height: 36px;
+    *display:inline;
+    *zoom:1;
+}
+.sysItem1 dd{
+    height:10%;
+}
+.sysItem1 dd a{
+    padding:0 5px;
+    display: block;
+    width:100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    line-height: 1.2;
+    color:#000;
+    font-size: 12px;
+    font-family:"Microsoft YaHei", "微软雅黑";
+    transition:all .3s;
+    letter-spacing: 1px;
+}
+.sysItem1 dd a:hover{
+    padding-left:10px;
+    text-decoration: none;
+}
+.active{
+    background:#004a86;
+}
+.active dt,.active dd a,.sysItem:hover dt,.sysItem:hover dd a{
+    color:#fff;
+}
+.sysItem1:hover{
+    background:#A3A3A3;
+}
+/*-----------------底部样式----------------------*/
+.bottomBox{
+    height:55%;
+}
+.pie,.line,.warn{
+    float:left;
+    height:100%;
+}
+.pie{
+    width:33%;
+}
+.line{
+    width:45%;
+}
+.warn{
+    width:22%;
+}
+.pieHead,.lineHead,.warnHead{
+    padding-left:25px;
+    height:40px;
+    line-height: 40px;
+    color:#458dc8;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: SimSun;
+}
+.pieHead{
+    background:url(../../img/main/banner-icon2.png) no-repeat 0 center;
+}
+.lineHead{
+    background:url(../../img/main/banner-icon3.png) no-repeat 0 center;
+}
+.warnHead{
+    background:url(../../img/main/banner-icon4.png) no-repeat 0 center;
+}
+.pieBody,.lineBody,.warnBody{
+    height:85%;
+    overflow: hidden;
+}
+.warnBody{
+    padding-top:5%;
+    list-style: none;
+}
+.warnBody li{
+    margin-bottom:10px;
+   line-height: 1.4;
+}
+.warnBody li a{
+    color:#333;
+    letter-spacing: 1px;
+}
+.icons{width:48px;height:36px;}
+.icon-gd{background:url(../../img/main/icon-gd1.png) no-repeat center;}
+.icon-gg{background:url(../../img/main/icon-gg1.png) no-repeat center;}
+.icon-lj{background:url(../../img/main/icon-lj1.png) no-repeat center;}
+.icon-ql{background:url(../../img/main/icon-ql1.png) no-repeat center;}
+.icon-sd{background:url(../../img/main/icon-sd1.png) no-repeat center;}
+.icon-dk{background:url(../../img/main/icon-dk1.png) no-repeat center;}
+.icon-zh{background:url(../../img/main/icon-zh1.png) no-repeat  center;}
+.icon-dj{background:url(../../img/main/icon-dj1.png) no-repeat center;}
+.icon-sg{background:url(../../img/main/icon-sg1.png) no-repeat  center;}
+
+dl:hover .icon-gd,.active .icon-gd{background:url(../../img/main/icon-gd2.png) no-repeat  center;}
+dl:hover .icon-gg,.active .icon-gg{background:url(../../img/main/icon-gg2.png) no-repeat  center;}
+dl:hover .icon-lj,.active .icon-lj{background:url(../../img/main/icon-lj2.png) no-repeat  center;}
+dl:hover .icon-ql,.active .icon-ql{background:url(../../img/main/icon-ql2.png) no-repeat  center;}
+dl:hover .icon-sd,.active .icon-sd{background:url(../../img/main/icon-sd2.png) no-repeat  center;}
+dl:hover .icon-dk,.active .icon-dk{background:url(../../img/main/icon-dk2.png) no-repeat  center;}
+dl:hover .icon-zh,.active .icon-zh{background:url(../../img/main/icon-zh2.png) no-repeat  center;}
+dl:hover .icon-dj,.active .icon-dj{background:url(../../img/main/icon-dj2.png) no-repeat  center;}
+dl:hover .icon-sg,.active .icon-sg{background:url(../../img/main/icon-sg2.png) no-repeat  center;}

@@ -1,0 +1,230 @@
+/*
+* 弹出框公共样式（添加、修改）
+* sxs
+*/
+.formWrap .mini-textbox-border, .formWrap .mini-buttonedit-border,
+	.formWrap .mini-buttonedit-input {
+	background: #fff;
+	border:1px solid #bababa;
+	font-size:13px;
+	height:28px;
+	line-height: 28px;
+}
+
+.formWrap table, .formWrap table td {
+	/* border:none; */
+	
+}
+
+.formWrap {
+	width: 850px;
+	margin: auto;
+	height: 100%;
+	background-color: #fff;
+}
+
+.formWrap table {
+	table-layout: fixed;
+}
+
+.formWrap table tr {
+	height: 30px;
+}
+
+.formWrap table td {
+	text-align: right;
+	/* padding-right: 5px;
+	padding-left: 5px; */
+}
+
+.table-box table td{
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.datagrid table td:last-child{
+	border-right: none;
+}
+
+.formWrap table .project_td div, .formWrap table .textarea_td div {
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+#table_Records {
+	border-left: 1px solid #E5E5E5;
+	border-top: 1px solid #E5E5E5;
+}
+
+#table_Records td {
+	border-right: 1px solid #E5E5E5;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+#table_Records td {
+	text-align: center;
+}
+/* 迷你样式覆盖 */
+.mini-textbox, .mini-buttonedit {
+	width: 100%;
+	height: 30px;
+}
+
+.mini-textbox-border, .mini-buttonedit-border {
+	border: none;
+	width: auto;
+	height: 30px;
+	padding-left: 10px;
+}
+
+.mini-textbox-input, .mini-buttonedit-input {
+	height: 30px;
+	line-height: 30px;
+	background:#fff;
+}
+
+.project_td {
+	height: 40px;
+	text-align: right;
+	font-size: 13px;
+	font-family: "微软雅黑";
+}
+
+.buttonDiv {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.formWrap table .project_td div span, .formWrap table .textarea_td div span
+	{
+	color: red;
+}
+
+.mini-modal {
+	background: #fff;
+	opacity: 0.2;
+}
+
+.mini-textarea .mini-textbox-border {
+	height: auto;
+	padding-left: 15px;
+	padding-right: 0px;
+}
+
+.margin7 {
+	margin: 7px 0;
+}
+
+.button-right {
+	float: right;
+	text-align: right;
+	margin-right: 2%;
+	margin-bottom: 5px;
+}
+
+.table-b td {
+	border: solid #add9c0;
+	border-width: 0px 1px 1px 0px;
+	padding: 1px 0px;
+}
+
+.table-b {
+	border: solid #add9c0;
+	border-width: 1px 0px 0px 1px;
+}
+
+.mini-panel-border {
+	border-bottom: none;
+}
+
+.mini-grid-headerCell, .mini-grid-cell {
+	border-left: none;
+	border-top: none;
+	border-right: 1px solid #d5dbde;
+	border-bottom: 1px solid #d5dbde;
+}
+
+.currentMonth {
+	width: 98%;
+}
+
+.currentMonth table,
+.TotleMonth table {
+	width: 100%;
+	border-left: 1px solid #d5dbde;
+	font-weight: bold;
+	background: #def7ff;
+}
+
+.currentMonth td,
+.TotleMonth td {
+	border-right: 1px solid #d5dbde;
+	border-bottom: 1px solid #d5dbde;
+}
+
+.currentMonth .td-1 {
+	width: 6%;
+}
+
+.currentMonth .td-2 {
+	width: 4%;
+}
+
+.currentMonth .td-1_2 {
+	width: 10%;
+}
+
+.currentMonth .td-3 {
+	width: 7%;
+}
+
+.currentMonth .td-5 {
+	width: 7%;
+}
+.currentMonth .td-4,
+.currentMonth .td-6,
+.currentMonth .td-7{
+	width: 14%;
+}
+
+.currentMonth .td-8,
+.currentMonth .td-9{
+	width: 17%;
+}
+
+.TotleMonth {
+	width: 98%;
+}
+
+.TotleMonth .td-1{
+	width: 20%;
+	text-align: center;
+}
+
+.TotleMonth .td-2,.TotleMonth .td-3, .TotleMonth .td-4 {
+	width: 20%;
+}
+
+.margin-auto{
+	margin: auto;
+}
+
+#fieldset {
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+}
+
+.text-center{
+	text-align: center !important;
+}
+
+.border-right-color{
+	border-right: 1px solid #def7ff !important;
+}
+.formWrap  .mini-buttonedit-input{
+	border:none;
+}

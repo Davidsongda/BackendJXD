@@ -1,0 +1,135 @@
+.topstyle {
+    width: 98.5%;
+    height: 32px;
+    line-height: 32px;
+    margin: 13px auto 0;
+    background: url(../../img/title_bg.png) repeat-x;
+    border-left: 1px solid #E7E7E7;
+    border-right: 1px solid #E7E7E7;
+}
+
+.topstyle a img {
+    width: 25px;
+    height: 20px;
+    position: relative;
+}
+
+.includethree {
+    width: 98.5%;
+    height: 195px;
+    border: 1px solid #cbd7e0;
+    margin-left: 8px;
+}
+
+.onediv {
+    width: 44.5%;
+    height: 178px;
+    border: 1px solid #cbd7e0;
+    margin-left: 8px;
+    margin-top: 8px;
+    float: left;
+}
+
+#oneImagediv {
+    border: 1px solid #cbd7e0;
+    height: 178px;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-top: 8px;
+    margin-left: 46%;
+}
+
+.twodiv {
+    width: 98.5%;
+    margin: 0 auto;
+    border: 1px solid #E7E7E7;
+    border-top: none;
+    height: 590px;
+}
+
+.imagestyle {
+    padding-left: 20px;
+    width: 50px;
+    height: 32px;
+    line-height: 32px;
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #1E71B7;
+}
+
+.up {
+    background: url(../../img/up.png) no-repeat 0 center;
+}
+
+.down {
+    background: url(../../img/down.png) no-repeat 0 center;
+}
+
+.topstyle span {
+    font-size: 14px;
+    position: absolute;
+    margin-left: 5px;
+    color: #333;
+}
+
+.tablestyle {
+    background-color: #D1EAEE;
+    width: 100%;
+    border: none;
+    height: 20px;
+}
+
+.echartsstyle {
+    width: 99%;
+    height: 400px;
+}
+
+.basePointTable {
+    margin-left: 50px;
+    display: block;
+    margin-top: 8px;
+}
+
+.basepointcolum {
+    font-size: 12px;
+    color: #7a868e;
+    font-family: 微软雅黑;
+}
+
+.basepointvalue {
+    font-size: 12px;
+    color: #232c33;
+    font-family: 微软雅黑;
+}
+
+#basepointcoulumline {
+    margin-left: 48px;
+}
+
+#basepointcolumsystem {
+    margin-left: 48px;
+}
+
+#basepointcolumname {
+    margin-left: -24px;
+}
+
+#basepointcolumlinetype {
+    margin-left: 24px;
+}
+
+#basepointcolumxianchang {
+    margin-left: 48px;
+}
+
+#basepointcolumxianluname {
+    margin-left: 48px;
+}
+
+.basedescribediv {
+    width: 335px;
+    margin-left: 64px;
+    height: 45px;
+    overflow: auto;
+}

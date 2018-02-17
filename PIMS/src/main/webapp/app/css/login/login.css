@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+/**
+ * @ClassName: base.css
+ * @Description: 公共样式表
+ * @Author: zww
+ * @Date: 2017-5-22
+ */
+html,body{width:100%;height:100%;margin: 0;}
+body{position:relative;font-family: "Microsoft YaHei", "微软雅黑";overflow: hidden;}
+.login-main{width: 100%;height:100%;background:#084B99;}
+/*登录页主体部分*/
+.loginBody{position: relative;width:100%;height:373px;background:  url(../../img/login/mainBg.png) no-repeat center;}
+.mainBg{position: absolute;width: 1366px;height:100%;background:url(../../img/login/house.png) no-repeat center bottom;}
+.loginImg{position: absolute;top:70px;left:192px;width:auto;}
+.loginImg .login-desc img{margin-right: 32px;margin-bottom: 36px;width: 124px;height: 124px;}
+.loginImg .text{width: 289px;height:114px;}
+.loginForm{position:absolute;top:-33px;right:126px;padding: 0 4px;width:400px;height:438px;background:url(../../img/login/login-bg.png) no-repeat 0 0;}
+#myform{margin-top: 84px;}
+.form-logo{position: absolute;top: 48px;left: 53px;width: 160px;height: 73px;}
+.loginInner{margin: 0 42px auto 42px;padding-top: 74px;width:310px;}
+.loginInner .form-item{width: 310px;height: 45px;padding:10px;margin-bottom:26px;background: url(../../img/login/inputBg.png) no-repeat;}
+.loginInner .form-item.select{background: url(../../img/login/inputSelect.png) no-repeat;}
+.loginInner .form-item.form-pwd{margin-bottom: 12px;}
+.loginInner .form-item span{position: absolute;display: inline-block;width: 20px;height:24px;}
+.loginInner .form-item span.icon-user{background: url(../../img/login/icon-user.png) no-repeat;}
+.loginInner .form-item span.icon-pwd{background: url(../../img/login/icon-pwd.png) no-repeat;}
+.loginInner .form-item input{margin-left: 35px;width:260px;height:25px;line-height: 25px;font-size: 14px;outline:none;border:none;}
+.loginInner .form-item-last{margin:12px 0 15px 0;}
+.loginInner .form-item-last #message{display: block;margin-bottom: 34px;width: 100%;height:15px;line-height: 15px;text-align: center;font-size: 14px;color:#696969;}
+.loginInner button{width:314px;height:45px;font-size:18px;border:none;outline: none;cursor:pointer;color:#fff;background:url(../../img/login/buttonBg.png) no-repeat center;}
+.loginInner button:hover{background:url(../../img/login/buttonHover.png) no-repeat center;}
+
+.footer{position: absolute;bottom: 0;width: 100%;height: 30px;line-height: 30px;text-align: center;color: #9c9c9c;}
+input:-webkit-autofill,textarea:-webkit-autofill,select:-webkit-autofill {-webkit-box-shadow: 0 0 0 1000px #fff  inset !important;}
+
+@media screen and (min-width:1400px) {
+    .loginBody{background: url(../../img/login/mainBgBig.png) no-repeat center;}
+    .mainBg{width: 1500px;}
+}
